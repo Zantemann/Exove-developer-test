@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 // Slider with updated value in state
-// Showing last value when released (another option is using timeout, but chose a simpler implementation)
+// Showing last value when slider is released
 const Slider = () => {
   const [sliderValue, setSliderValue] = useState(0);
   const [isSliding, setIsSliding] = useState(false);
